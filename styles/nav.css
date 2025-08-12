@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  padding-bottom: 5px;
+  position: sticky;
+}
+
+.search-button {
+  border: none;
+  background-color: #FF5A5F;
+  color: white;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.search-button i {
+  font-size: 20px;
+  line-height: 50px;
+}
