@@ -1,25 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Airbnb</title>
-    <link rel="stylesheet" href="index.css" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airbnb</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="
     <link
-      rel="stylesheet"
-      href="
-    <link
-      rel="
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <section>
-      <h2><b>Popular homes in london</b></h2>
-      <!-- <div class="body">
+      rel=" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/nav.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <section>
+    <!-- header -->
+    <header class="navbar navbar-expand-lg bg-white"
+      style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style=" color: #FF5A5F ; font-weight: bold;">
+          <h2 style="font-weight: 600;"> <i class="fa-brands fa-airbnb"></i>airbnb</h2>
+        </a>
+
+        <!-- <div class="collapse navbar-collapse" id="navbarText" style="align-items: center;"> -->
+        <div class="" id="navbarText" style="align-items: center;">
+          <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="fs-2">🏚</span> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experience.html" style="color: black;"><span class="fs-2">🏖</span>
+                Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html" style="color: black;"><span class="fs-2">🛎</span> Services</a>
+            </li>
+          </ul>
+
+
+        </div>
+        <div>
+          <span class="navbar-text">
+            Become a host
+            <span class="bg-body-secondary rounded-circle p-2 fw-bolder"><i class="fa-solid fa-globe"></i></span>
+            <span class="bg-body-secondary rounded-circle p-2 fw-bolder"><i class="fa-solid fa-bars"></i></span>
+          </span>
+        </div>
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Navigation -->
+    <nav class="container-fluid"
+      style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 15px; position: sticky; z-index: 1; top: 0; background-color: white; height: 80px; align-items: center;">
+
+      <div>
+        <a class="navbar-brand" href="#" style=" color: #FF5A5F ; font-weight: bold;">
+          <h2 style="font-weight: 600;"> <i class="fa-brands fa-airbnb"></i>airbnb</h2>
+        </a>
+      </div>
+
+      <div class="nav-container rounded-pill">
+        <div><span class="fs-5">🛎</span></div>
+        <div>Anywhere
+          <p></p>
+        </div>
+        <div>Anytime
+          <p></p>
+        </div>
+        <div>Add service
+          <p></p>
+        </div>
+        <div class="search-button">
+          <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+      </div>
+
+      <div>
+        <span class="navbar-text">
+          Become a host
+          <span class="bg-body-secondary rounded-circle p-2 fw-bolder"><i class="fa-solid fa-globe"></i></span>
+          <span class="bg-body-secondary rounded-circle p-2 fw-bolder"><i class="fa-solid fa-bars"></i></span>
+        </span>
+      </div>
+
+    </nav>
+
+  </section>
+
+
+  <section>
+    <h2><b>Popular homes in london</b></h2>
+    <!-- <div class="body">
         <div class="imgs">
           <img src="images/download (10).jpg" alt="" />
 
@@ -31,296 +115,297 @@
           </div>
         </div>
       </div> -->
-      <div class="div-con">
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
+    <div class="div-con">
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
         </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
         </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
-            <span class="label">Guest favorite</span>
-            <span class="heart">♡</span>
-          </div>
-          <div class="card-info">
-            <h3>Apartment in Sandton</h3>
-            <p>$118 for 2 nights · ⭐ 4.78</p>
-          </div>
-        </div>
-
       </div>
-    </section>
-    
-<footer class="footer">
-  <div class="footer-container">
-<div class="footer-top">
-  <li><a href="#" class="footer-top">Unique stays</a></li>
-  <li><a href="#" class="footer-top">Travel tips & inspiration</a></li>
-<li><a href="#" class="footer-top">Airbnb-friendly apartment</a></li>
-</div>
-    <div class="footer-column">
-      <h3>Support</h3>
-      <ul>
-        <li><a href="#">Help Center</a></li>
-        <li><a href="#">AirCover</a></li>
-        <li><a href="#">Anti-discrimination</a></li>
-        <li><a href="#">Disability support</a></li>
-        <li><a href="#">Cancellation options</a></li>
-        <li><a href="#">Report neighborhood concern</a></li>
-      </ul>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="./images/images (1).jpg" alt="Apartment in Sandton" />
+          <span class="label">Guest favorite</span>
+          <span class="heart">♡</span>
+        </div>
+        <div class="card-info">
+          <h3>Apartment in Sandton</h3>
+          <p>$118 for 2 nights · ⭐ 4.78</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <li><a href="#" class="footer-top">Unique stays</a></li>
+        <li><a href="#" class="footer-top">Travel tips & inspiration</a></li>
+        <li><a href="#" class="footer-top">Airbnb-friendly apartment</a></li>
+      </div>
+      <div class="footer-column">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">AirCover</a></li>
+          <li><a href="#">Anti-discrimination</a></li>
+          <li><a href="#">Disability support</a></li>
+          <li><a href="#">Cancellation options</a></li>
+          <li><a href="#">Report neighborhood concern</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Hosting</h3>
+        <ul>
+          <li><a href="#">Airbnb your home</a></li>
+          <li><a href="#">AirCover for Hosts</a></li>
+          <li><a href="#">Hosting resources</a></li>
+          <li><a href="#">Community forum</a></li>
+          <li><a href="#">Responsible hosting</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Airbnb</h3>
+        <ul>
+          <li><a href="#">Newsroom</a></li>
+          <li><a href="#">New features</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Investors</a></li>
+          <li><a href="#">Gift cards</a></li>
+        </ul>
+      </div>
+
     </div>
 
-    <div class="footer-column">
-      <h3>Hosting</h3>
-      <ul>
-        <li><a href="#">Airbnb your home</a></li>
-        <li><a href="#">AirCover for Hosts</a></li>
-        <li><a href="#">Hosting resources</a></li>
-        <li><a href="#">Community forum</a></li>
-        <li><a href="#">Responsible hosting</a></li>
-      </ul>
+    <div class="footer-bottom">
+      <p>© 2025 Airbnb, Inc. · Privacy · Terms · Sitemap</p>
     </div>
+  </footer>
 
-    <div class="footer-column">
-      <h3>Airbnb</h3>
-      <ul>
-        <li><a href="#">Newsroom</a></li>
-        <li><a href="#">New features</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Investors</a></li>
-        <li><a href="#">Gift cards</a></li>
-      </ul>
-    </div>
+</body>
 
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2025 Airbnb, Inc. · Privacy · Terms · Sitemap</p>
-  </div>
-</footer>
-    
-  </body>
 </html>
